@@ -1,14 +1,29 @@
-var currentDay = Date();
-var dd = currentDay.getDate();
-var mm = currentDay.getMonth(); + 1
-var yyyy = currentDay.getFullYear();
-if (dd < 10) {
-    dd = '0' + dd;
-  }
-  
-  if (mm < 10) {
-    mm = '0' + mm;
-  }
+const dayNames = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"];
 
-  currentDay = `${mm} / ${dd} / ${yyyy}`
-  document.getElementById(footer_scrip_time)
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "Augost",
+  "Octuver",
+  "September",
+  "November",
+  "Dicember"
+];
+
+const currentDay = new Date();
+const dayName = dayNames[currentDay.getDay()];
+const monthName = months[currentDay.getMonth()];
+const currentDate = `Last Update ${dayName}/ ${currentDay.getDate()} / ${monthName}/ ${currentDay.getFullYear()}`;
+document.getElementById("footer_scrip_time").textContent = currentDate;
