@@ -114,5 +114,6 @@ main ul li{
 
 @media screen and (max-width: 1100px) { 
     .display_grid{
-    display: block;
-    }}
+    display: inline-block;
+    }
+}
