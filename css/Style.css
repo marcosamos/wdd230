@@ -43,11 +43,6 @@ html{
     background-color: rgb(247, 238, 238);
 }
 
-body{
-    background-image: url(images/body_img.jpg);
-    max-width: 100%;
-}
-
 .display_grid{
     display: grid;
     grid-template-columns: repeat(6,1fr);
