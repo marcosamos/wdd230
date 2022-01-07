@@ -43,6 +43,10 @@ html{
     background-color: rgb(247, 238, 238);
 }
 
+body{
+    background-image: url("imgaes/body_img.jpg");
+}
+
 .display_grid{
     display: grid;
     grid-template-columns: repeat(6,1fr);
