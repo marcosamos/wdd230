@@ -44,7 +44,7 @@ html{
 }
 
 body{
-    background-image: url(images/body_img.jpg);
+    background-image: url(/images/body_img.jpg);
 }
 
 .display_grid{
