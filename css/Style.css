@@ -13,7 +13,7 @@ html{
 
 
 /* Header */
-.header{    
+header{    
   background-color: #084566;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -38,7 +38,6 @@ html{
 /* Principal contend */
 #contener{
     max-width: 80%;
-    max-height: 90%;
     margin: 0 auto;
     background-color: rgb(247, 238, 238);
 }
@@ -66,11 +65,9 @@ main h2{
     grid-column: 1/7;
     grid-row: 1/1;
     text-align: center;
-    align-items: center;
 }
 
 .main_img1{
-    margin-left: 50px;
     width: 250px;
     grid-column: 1/2;
     grid-row: 2/4;
@@ -82,6 +79,7 @@ main h2{
 main ul li{
     font-size: 3rem;
     text-align: center;
+    padding: .8rem;
 }
 
 .main_ul{
@@ -94,7 +92,7 @@ main ul li{
 }
 
 .main_img2{
-    margin-right: 50px;
+    
     width: 250px;
     grid-column: 6/7;
     grid-row: 2/4;
@@ -105,11 +103,12 @@ main ul li{
   }
 
 /* Footer */
-.footer{
+footer{
     text-align: center;
     background-color: #084566;
     font-size: 2rem;
     color: white;
+    padding: 1.5rem;
 }
 
 @media screen and (max-width: 1100px) { 
@@ -123,7 +122,7 @@ main ul li{
 and (min-width: 320px)
 and (max-width: 732px)
 {
-    .display_grid, .header{
+    .display_grid, header{
         display: block;
     }
 }
