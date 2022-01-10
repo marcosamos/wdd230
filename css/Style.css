@@ -1,3 +1,7 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Source+Code+Pro:wght@300&display=swap');
+
+
 /* Special format*/
 
 *{
@@ -28,6 +32,7 @@ header{
 }
 
 .header_h1{
+    font-family: "Merriweather",serif;
     font-size: 5rem;
     color: white;
     grid-column: 3/5;
@@ -60,6 +65,7 @@ hr{
 }
 
 main h2{
+    font-family: "Merriweather",serif;
     margin-bottom: 50px;
     font-size: 4rem;
     grid-column: 1/7;
@@ -77,6 +83,7 @@ main h2{
   }
 
 main ul li{
+    font-family: "Source+Code+Pro", serif;
     font-size: 3rem;
     text-align: center;
     padding: .8rem;
@@ -92,7 +99,6 @@ main ul li{
 }
 
 .main_img2{
-    
     width: 250px;
     grid-column: 6/7;
     grid-row: 2/4;
@@ -106,6 +112,7 @@ main ul li{
 footer{
     text-align: center;
     background-color: #084566;
+    font-family: "Source+Code+Pro",serif;
     font-size: 2rem;
     color: white;
     padding: 1.5rem;
