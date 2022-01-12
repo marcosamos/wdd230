@@ -3,7 +3,10 @@
 and (min-width: 320px)
 and (max-width: 732px)
 {
-    .display_grid, header{
+    .display_grid{
+        display: block;
+    }
+    header{
         display: block;
     }
 }
