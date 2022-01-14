@@ -67,12 +67,13 @@ img{
 }
 
 a{
-    margin: 5px 0 10px 0;
+    
     background-color: blue;
     color: white;
     font-size: 2rem;
     font-family: 'Questrial', serif;
     border: black 1px solid;
+    margin: 5px 0 10px 0;
 }
 
 /* Footer */
