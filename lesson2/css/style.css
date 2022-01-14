@@ -38,6 +38,7 @@ div{
     border: black 1.5px solid;
     background-color: rgb(233, 233, 233);
     margin: 15px 0 15px 0;
+    padding: 20px;
 }
 
 div h2, h3{
@@ -73,7 +74,6 @@ a{
     font-size: 2rem;
     font-family: 'Questrial', serif;
     border: black 1px solid;
-    margin: 5px 0 10px 0;
 }
 
 /* Footer */
