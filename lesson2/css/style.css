@@ -1,5 +1,4 @@
 /* Special format*/
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -13,57 +12,66 @@ html{
 /* Header */
 header{
     color: white;    
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-family: "Merriweather",serif;
     background-color: #084566;
     text-align: center;
+    display: block;
 }
 
 
 /* Main */
-body{
-    width: 75%;
+#contener{
+    width: 80%;
     margin: 0 auto;
     background-color: whitesmoke;
 }
 
-main{
+.main-grid{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 2rem;
-    padding: 20px;
-  
+    padding: 15px;
 }
-section{
+div{
     border: black 1.5px solid;
     background-color: rgb(233, 233, 233);
+    margin: 15px 0 15px 0;
 }
 
-section h2, h3{
+div h2, h3{
+    font-family: "Merriweather",serif;
     background-color: #084566;
     color: rgb(255, 255, 255);
 }
 
-section h2{
+div h2{
    
     font-size: 3.5rem;
 }
 
-section h3{
+div h3{
+    margin: 0 0 15px 0;
     font-size: 2.5rem;
 }
 
-section p{
+div p{
+    font-family: 'Questrial', serif;
+    margin: 5px 0 5px 0;
     font-size: 2rem;
 }
 img{
-    width: 350px;
+    margin: 5px 0 5px 0;
+    width: 250px;
 }
 
 button{
-    background-color: yellow;
-    color: black;
+    margin: 5px 0 10px 0;
+    background-color: blue;
+    color: white;
     font-size: 2rem;
+    font-family: 'Questrial', serif;
 }
 
 /* Footer */
