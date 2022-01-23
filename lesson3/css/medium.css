@@ -1,10 +1,37 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 638px) {
 
-    .header-top{
-        display: flex;
-    }
-    nav ul li{
-        display:inline;
+   body{
+       max-width: 80%;
+       background-color: black;
+   }
+
+   .header-top{
+       display: inline-flex;
+       align-items: center;
+       text-align: center;
+   }
+
+
+    body main{
+    background-color: white;
     }
 
+   nav ul{
+       display: flex;
+   }
+
+   nav ul li{
+    text-decoration: none;
+    flex: 1 1 auto 100%;
+   }
+
+   main img{
+       text-align: center;
+       width: 250px;
+   }
+
+   .colors{
+    text-align: center;
+    width: 500px;
+   }
 }

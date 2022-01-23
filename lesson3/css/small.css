@@ -11,12 +11,22 @@ html{
     font-size: 62.5%;
 }
 
-.header-top{
-    display: flex;
+body{
+    max-width: 100%;
+    margin: auto;
+    border: black .5rem solid;
 }
 
+/*Header */
+.header-top{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+
 .header-top img{
-    width: 10rem;
+    width: 100px;
 }
 
 header{background-color: var(--color-secundary);
@@ -24,32 +34,41 @@ header{background-color: var(--color-secundary);
     text-align: center;
 }
 
+/* header nav*/
 nav{
-    font-size: 2.5rem;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-}
-
-nav ul{
+    font-size: 2.3rem;
+    justify-content: center;
+    align-items: center;
     background-color: #BF8A3D;
 }
 
+
 nav ul li{
+    list-style: none;
     border: 1px black solid;
-    margin: 3rem;
+    margin: 0 auto;
+    
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.active{
     background-color: var(--color-secundary);
 }
 /* main */
 
 main{
+    padding: 3rem;
     display: block;
     text-align: center;
 }
 
-h1{
-    font-size: 4rem;
-}
+
 
 h2{
     font-size: 3rem;
@@ -73,4 +92,13 @@ footer{
     text-align: center;
     font-size: 2rem;
     padding: 1.7rem;
+}
+
+
+.roboto-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.handlee-font{
+    font-family: 'Handlee', cursive;
 }
