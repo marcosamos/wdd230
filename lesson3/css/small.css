@@ -102,3 +102,23 @@ footer{
 .handlee-font{
     font-family: 'Handlee', cursive;
 }
+
+.person1{
+    border: black 1px solid;
+    margin-bottom: 1.5rem;
+}
+
+.person2{
+    border: black 1px solid;
+    margin-bottom: 1.5rem;
+}
+
+.person1 li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.person2 li{
+    list-style: none;
+    font-size: 1.5rem;
+}
