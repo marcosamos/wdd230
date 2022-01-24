@@ -22,7 +22,7 @@
  
     nav ul li{
      text-decoration: none;
-     flex: 1 1 auto 100%;
+     flex: auto;
     }
  
     main img{
