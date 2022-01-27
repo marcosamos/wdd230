@@ -39,3 +39,8 @@ const fullYear = currentlyDate.getFullYear();
 const fullDate = `${nameDay} ${day}  ${month} ${fullYear}`;
 document.getElementById("header-date").textContent = fullDate;
 
+const ageAndName = ` © ${fullYear} Canaco Chamber`;
+document.querySelector("#ageAndName").textContent = ageAndName;
+const lastModify = `Last Updated: ${document.lastModified}`;
+document.querySelector("#footerShow").textContent = lastModify;
+

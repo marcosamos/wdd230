@@ -1,3 +1,8 @@
+:root{
+    --color-secundary: #6F1F2D;
+    --color-terceary:#BF8A3D;
+    }
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,8 +13,14 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    display: block;
+}
 header{
+    background-color: var(--color-secundary);
     display: flex;
+    font-size: 3rem;
+    color: white;
 }
 
 header img{
@@ -22,8 +33,8 @@ nav button{
     margin: .2rem 2vw;
     background-color: transparent;
     border: none;
-    font-size: 2rem;
-    color: #555;
+    font-size: 3rem;
+    color: white;
 }
 
 
@@ -37,12 +48,12 @@ nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: white;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: var(--color-terceary);
 }
 
 nav ul{display: none;}
@@ -53,3 +64,15 @@ nav ul.open{display: block;}
 #menuBtn.open span:nth-child(1){display: none;}
 #menuBtn.open span:nth-child(2){display: block;}
 
+
+footer{
+    color: white;
+    background-color: var(--color-secundary);
+    text-align: center;
+    font-size: 2rem;
+}
+
+footer img{
+    width: 80px;
+    height: auto;
+}
