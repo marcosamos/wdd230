@@ -16,6 +16,8 @@ html{
 body{
     display: block;
 }
+
+/* Header*/
 header{
     display: flex;
     flex-wrap: wrap;
@@ -97,65 +99,65 @@ header p{
 
 /* Main */
 main{
-    display: grid;
-    margin-top: 10px;
-    row-gap: 10px;
-    padding: 1em;
+  display: grid;
+  margin-top: 10px;
+  row-gap: 10px;
+  padding: 1em;
 }
 .join {
-  font-family: 'Handlee', cursive;
-    display: none;
-  }
+font-family: 'Handlee', cursive;
+  display: none;
+}
 
 main div {
-    background-color: rgb(201, 201, 245);
-    display: block;
-    padding: 1em;
-  }
+  background-color: rgb(201, 201, 245);
+  display: block;
+  padding: 1em;
+}
 
-  .callToAction {
-    font-family: 'Handlee', cursive;
-    grid-area: 1 / 1 / 2 / 2;
-    background-color: rgb(201, 201, 245);
-  }
-  .news {
-    font-family: 'Handlee', cursive;
-    background-color: rgb(201, 201, 245);
-    grid-area: 4 / 1 / 5 / 2;
-  }
-  .spotLights {
-    font-family: 'Handlee', cursive;
-    grid-area: 5 / 1 / 6 / 2;
-    background-color: rgb(201, 201, 245);
-  }
-  .spotLight1 {
-    font-family: 'Handlee', cursive;
-    width: 95%;
-    height: 8rem;
-    border: 1px solid var(--color-terceary);
-    margin: 0 auto;
-  }
-  .spotLight2 {
-    font-family: 'Handlee', cursive;
-    width: 95%;
-    height: 8rem;
-    border: 1px solid var(--color-terceary);
-    margin: 0 auto;
-    margin-top: 5px;
-  }
-  .spotLight3 {
-    font-family: 'Handlee', cursive;
-    display: none;
-  }
-  .event {
-    font-family: 'Handlee', cursive;
-    grid-area: 2 / 1 / 3 / 2;
-  }
-  
-  .weather {
-    font-family: 'Handlee', cursive;
-    grid-area: 3 / 1 / 4 / 2;
-  }
+.callToAction {
+  font-family: 'Handlee', cursive;
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(201, 201, 245);
+}
+.news {
+  font-family: 'Handlee', cursive;
+  background-color: rgb(201, 201, 245);
+  grid-area: 4 / 1 / 5 / 2;
+}
+.spotLights {
+  font-family: 'Handlee', cursive;
+  grid-area: 5 / 1 / 6 / 2;
+  background-color: rgb(201, 201, 245);
+}
+.spotLight1 {
+  font-family: 'Handlee', cursive;
+  width: 95%;
+  height: 8rem;
+  border: 1px solid var(--color-terceary);
+  margin: 0 auto;
+}
+.spotLight2 {
+  font-family: 'Handlee', cursive;
+  width: 95%;
+  height: 8rem;
+  border: 1px solid var(--color-terceary);
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.spotLight3 {
+  font-family: 'Handlee', cursive;
+  display: none;
+}
+.event {
+  font-family: 'Handlee', cursive;
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.weather {
+  font-family: 'Handlee', cursive;
+  grid-area: 3 / 1 / 4 / 2;
+}
 
 footer{
     font-family: 'Roboto', sans-serif;
@@ -171,9 +173,9 @@ hr{
     margin-right: 50px;
 }
 footer img{
-    width: 80px;
+    width: 50px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
 }
 
 footer p{

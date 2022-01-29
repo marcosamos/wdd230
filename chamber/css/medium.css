@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 766px) {
     main {
       grid-template-columns: 3fr 1fr;
       grid-template-rows: repeat(5, 1fr);
@@ -35,6 +35,26 @@
       grid-area: 5 / 2 / 6 / 3;
     } /* end medium */
   }
+
+.footer-medium_large{
+  align-items: flex-start;
+}
+
+.up-hr{
+  display: grid;
+}
+.footer-medium_large1{
+  grid-area: 1/1;
+}
+.img-left{
+  display: flex;
+  align-items: center;
+}
+
+.footer-medium_large2{
+  grid-area: 1/2;
+  align-content: center;
+}
 
 .down-hr{
       display: flex;
