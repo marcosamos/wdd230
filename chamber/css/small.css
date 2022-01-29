@@ -13,9 +13,6 @@ html{
     font-size: 62.5%;
 }
 
-body{
-    display: block;
-}
 
 /* Header*/
 header{
@@ -29,8 +26,8 @@ header{
 }
 
 header img{
-    width: 90px;
-    height: auto;
+    width: 80px;
+   
 }
 
 header h1{
@@ -55,7 +52,7 @@ header a img{
     width: fit-content;}
 
 nav button{
-    margin: .2rem 2vw;
+    margin: auto;
     background-color: transparent;
     border: none;
     font-size: 3rem;
@@ -161,7 +158,7 @@ main div {
 
 footer{
     font-family: 'Roboto', sans-serif;
-    padding: 1em;
+    padding: 1rem;
     color: white;
     background-color: var(--color-secundary);
     text-align: center;
@@ -180,4 +177,8 @@ footer img{
 
 footer p{
   padding: .10rem;
+}
+
+.footer-medium_large{
+  display: block;
 }
