@@ -36,7 +36,7 @@ const nameDay = daynames[currentlyDate.getDay()];
 const day = currentlyDate.getDate();
 const month = months[currentlyDate.getMonth()];
 const fullYear = currentlyDate.getFullYear();
-const fullDate = `${nameDay} ${day}  ${month} ${fullYear}`;
+const fullDate = `${nameDay}  ${month} ${day} ${fullYear}`;
 document.getElementById("header-date").textContent = fullDate;
 
 const ageAndName = ` © ${fullYear} Canaco Chamber`;

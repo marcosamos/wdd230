@@ -1,0 +1,42 @@
+@media only screen and (min-width: 35rem) {
+    main {
+      grid-template-columns: 3fr 1fr;
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+    }
+    .callToAction {
+      grid-area: 1 / 1 / 2 / 3;
+    }
+    .news {
+      grid-area: 2 / 1 / 3 / 3;
+    }
+    .spotLights {
+      grid-area: 3 / 1 / 4 / 3;
+    }
+    .spotLight1 {
+      margin: 10px;
+    }
+    .spotLight2 {
+      margin: 10px;
+    }
+    .join {
+      display: grid;
+      grid-area: 4 / 1 / 5 / 3;
+      background-color: rgb(201, 201, 245);
+    }
+    .event {
+      display: grid;
+      grid-area: 5 / 1 / 6 / 2;
+      background-color: rgb(201, 201, 245);
+    }
+  
+    .weather {
+      grid-area: 5 / 2 / 6 / 3;
+    } /* end medium */
+  }
+
+.down-hr{
+      display: flex;
+      display: inline-flex;
+  }
