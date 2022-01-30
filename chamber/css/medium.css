@@ -36,10 +36,6 @@
     } /* end medium */
   }
 
-.footer-medium_large{
-    align-items: flex-start;
-  }
-  
 .up-hr{
     display: grid;
   }
