@@ -36,23 +36,29 @@
     } /* end medium */
   }
 
-.up-hr{
+  footer{
+    padding: 2vw;
     display: grid;
-  }
-.footer-medium_large1{
-    grid-area: 1/1;
-  }
-.img-left{
-    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
     align-items: center;
-  }
-  
-.footer-medium_large2{
-    grid-area: 1/2;
-  }
-  
-.down-hr{
-        display: flex;
-        display: inline-flex;
-    }
+}
+
+.footerLogo{
+    justify-self: end;
+    width: 60px;
+}
+
+.footerTitle{
+    text-align: left;
+    grid-column: 2/3;
+}
+
+.map{
+    grid-column: 3/5;
+}
+
+footer p{
+    grid-column: 1/5;
+}
   

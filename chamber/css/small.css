@@ -162,19 +162,10 @@ footer{
     color: white;
     background-color: var(--color-secundary);
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-hr{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-footer img{
-    width: 50px;
-    height: auto;
-    margin: 5px;
-}
 
 footer p{
-  padding: .10rem;
+  padding: 1rem;
 }
