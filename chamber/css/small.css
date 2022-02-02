@@ -16,13 +16,16 @@ html{
 
 /* Header*/
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,1fr);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-secundary);
     font-size: 2rem;
     color: white;
+
 }
 
 header img{
@@ -34,12 +37,12 @@ header h1{
     padding: 2rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    flex-direction: column;
+    grid-area: 1/2;
 }
 
-.img-h1{
-    display: flex;
+img{
     align-items: center;
+    grid-area: 1/1;
 }
 
 
@@ -49,14 +52,15 @@ header a img{
 
 .social{   
     justify-content: end;
-    width: fit-content;}
-
+    grid-area: 1/3;
+}
 nav button{
     margin: auto;
     background-color: transparent;
     border: none;
     font-size: 3rem;
     color: white;
+    grid-area: 1/5;
 }
 
 
@@ -92,6 +96,7 @@ header p{
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
+    grid-area: 2/5;
 }
 
 /* Main */
@@ -163,9 +168,18 @@ footer{
     background-color: var(--color-secundary);
     text-align: center;
     font-size: 1.5rem;
+    padding: 3vw;
 }
 
+footer img{
+  width: 60px;
+}
 
 footer p{
   padding: 1rem;
+  border-top: 1px white solid;
+}
+
+.map{
+  padding: 15px;
 }
