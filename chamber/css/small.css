@@ -106,8 +106,7 @@ nav ul li a:hover {
 }
 
 nav ul{display: none;}
-nav ul.open{display: block;
-}
+nav ul.open{display: block;}
 
 #menuBtn span:nth-child(1){display: block;}
 #menuBtn span:nth-child(2){display: none;}
