@@ -1,5 +1,37 @@
 @media only screen and (min-width: 1100px) {
+  header h1{
+    font-size: 5rem;
+  }
+  
+  header img{
+    width: 100px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+    }
+  
+    header a img{
+    width: 45px;
+    }
+    
+    header p{
+      display: inline;
+    }
+
+    .social{   
+      text-align: center;
+      grid-column: 5/5;
+      grid-row: 1/1;
+      display: flex;
+  }
+
+    nav ul#primaryNav {
+      display: flex;
+      justify-items: center;
+    }
+
     nav {
+      grid-column: 4/4;
       margin-bottom: 20px;
     }
     nav button {
