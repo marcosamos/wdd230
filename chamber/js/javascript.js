@@ -44,3 +44,13 @@ document.querySelector("#ageAndName").textContent = ageAndName;
 const lastModify = `Last Updated: ${document.lastModified}`;
 document.querySelector("#footerShow").textContent = lastModify;
 
+
+// Banner
+let banner = document.querySelector("#banner");
+let deleteButton = document.querySelector("#button");
+
+if(nameDay == "Monday" || nameDay == "Friday"){
+	showElement();}
+else{
+	;
+}

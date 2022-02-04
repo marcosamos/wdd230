@@ -63,6 +63,7 @@
 
     .spotLights {
       grid-area: 1 / 3 / 4 / 4;
+      display: block;
     }
     .footerLogo img {
       display: flex;

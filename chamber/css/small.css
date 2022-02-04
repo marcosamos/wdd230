@@ -13,6 +13,16 @@ html{
     font-size: 62.5%;
 }
 
+/* banner */
+#banner{
+  font-size: 1.2rem;
+  position: fixed;
+  background-color: var(--color-terceary);
+  text-align: center;
+  max-width: 500px;
+  padding: 10px;
+  display: none;
+}
 
 /* Header*/
 header{
