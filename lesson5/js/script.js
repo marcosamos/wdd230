@@ -4,6 +4,10 @@ const list = document.querySelector("#list");
 
 bt.addEventListener("click",() => {
     let size = favchap.value;
+    if (size == ""){
+        alert("Please type correctly 😁");
+    }
+    else{
 
     let listChapter = document.createElement("li");
 	let deleteButton = document.createElement("button");
@@ -16,7 +20,7 @@ bt.addEventListener("click",() => {
 
     deleteButton.addEventListener("click", () => {
     list.removeChild(listChapter);
-    });
+    })};
 
     favchap.focus();
 	favchap.value = "";
