@@ -6,22 +6,24 @@
     display: flex;
     }
 
-  .header{
+  .headers{
     padding: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Handlee', cursive;
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1/1;
     }
 
     header h1{
-      font-size: 3rem;
+      font-size: 5rem;
       margin-top: 50px;
+      text-align: left;
     }
     
     header h4{
-      font-size: 2rem;
+      font-size: 4rem;
       margin-bottom: 50px;
+      margin-right: 150px;
     }
   main {
       grid-template-columns: 3fr 1fr;
