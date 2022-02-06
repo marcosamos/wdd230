@@ -64,12 +64,26 @@
     .join {
       display: grid;
       grid-area: 4 / 1 / 5 / 3;
-      background-color: rgb(201, 201, 245);
+      text-align: center;
+      color: white;
+      padding: 35px;
     }
+
+    .join h1{
+      background-color: #BF8A3D;
+      border-radius: 20px;
+    }
+
+    .join p{
+      font-size: 2rem;
+    }
+
+
+
     .event {
       display: grid;
       grid-area: 5 / 1 / 6 / 2;
-      background-color: rgb(201, 201, 245);
+
     }
   
     .weather {

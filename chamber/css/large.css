@@ -70,9 +70,7 @@
       justify-self: flex-start;
     }
     .spotLight3 {
-      display: grid;
-      background-color: rgb(201, 201, 245);
-      border: 1px solid var(--color-terceary);
+      display: inline-table;
       align-items: center;
       height: 8rem;
       margin: 10px;

@@ -46,11 +46,23 @@ document.querySelector("#footerShow").textContent = lastModify;
 
 
 // Banner
-let banner = document.querySelector("#banner");
-let deleteButton = document.querySelector("#button");
+const divList = document.querySelectorAll("div");
 
-if(nameDay == "Monday" || nameDay == "Friday"){
-	showElement();}
-else{
-	;
+const popUp = divList[0];
+const closeButton = document.querySelector('button');
+
+if(nameDay == "Monday" || nameDay == "Tuesday"){
+	showElement();
+} else {
+	hideElement();
+}
+closeButton.onclick = hideElement;
+
+
+function hideElement(){
+	popUp.setAttribute('class', 'hidden');
+}
+
+function showElement(){
+	popUp.setAttribute('class', 'shown');
 }
