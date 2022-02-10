@@ -7,7 +7,6 @@
     }
 
   .headers{
-    padding: 2rem;
     font-family: 'Handlee', cursive;
     text-align: center;
     grid-column: 2/4;
@@ -66,7 +65,7 @@
       grid-area: 4 / 1 / 5 / 3;
       text-align: center;
       color: white;
-      padding: 35px;
+      padding: 60px;
     }
 
     .join h1{

@@ -156,6 +156,7 @@ main{
   margin-top: 10px;
   row-gap: 10px;
   padding: 1em;
+ 
 }
 .join {
   font-family: 'Roboto', sans-serif;
@@ -183,6 +184,7 @@ main div {
 
 .callToAction img{
     width: 100%;
+    height: 100%;
 }
 .callToAction section{
   text-align: center;
@@ -216,7 +218,7 @@ main div {
 .spotLights {
   font-family: 'Roboto', sans-serif;
   grid-area: 5 / 1 / 6 / 2;
-  background-color: rgb(201, 201, 245);
+  background-color: var(--color-secundary);
 }
 .spotLight1 {
   text-align: center;
@@ -225,6 +227,7 @@ main div {
 
 .spotLight1 img{
   width: 100%;
+  height: 100%;
 }
 
 .spotLight2{
@@ -233,7 +236,7 @@ main div {
 
 .spotLight2 img{
   width: 100%;
-  
+  height: 100%;
 }
 .spotLight3 {
   font-family: 'Roboto', sans-serif;
@@ -243,6 +246,7 @@ main div {
 
 .spotLight3 img{
   width: 100%;
+  height: 100%;
 }
 
 .event {
@@ -261,14 +265,32 @@ main div {
   font-size: 2rem;
 }
 .weather {
+  color: white;
   font-family: 'Roboto', sans-serif;
   grid-area: 3 / 1 / 4 / 2;
+  text-align: center;
+  background-color: var(--color-secundary);
 }
 
-.weather img{
-  max-width: 100%;
-  max-height: 100%;
-  
+.weatherImage {
+
+  float: left;
+  margin: 25px 0 0 50px;
+}
+
+.temperature, .tempUnits {
+  font-size: 48px;
+  margin-left: 10px;
+}
+
+.weather p{
+  font-size: 2rem;
+  color: white;
+  margin-top: 10px;
+}
+
+.windSped,.speedUnits,.windChill,.chillUnits{
+  font-size: 1.5rem;
 }
 
 footer{
