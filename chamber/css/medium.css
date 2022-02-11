@@ -5,7 +5,9 @@
     grid-row: 1/1;
     display: flex;
     }
-
+  .header-img{
+    width: 300px;
+  }
   .headers{
     font-family: 'Handlee', cursive;
     text-align: center;
@@ -24,7 +26,9 @@
       margin-bottom: 50px;
       margin-right: 150px;
     }
-  main {
+
+
+    main {
       grid-template-columns: 3fr 1fr;
       grid-template-rows: repeat(5, 1fr);
       grid-column-gap: 10px;
@@ -100,7 +104,7 @@
 
     .footerLogo{
       justify-self: end;
-      width: 60px;
+      width: 100px;
     }
 
   .footerTitle{

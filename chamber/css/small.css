@@ -47,20 +47,17 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-secundary);
-    font-size: 2rem;
     color: white;
     font-family: 'Handlee', cursive;
 }
 
-header img{
-    width: 100px;
+.header-img{
+    width: 145px;
     grid-column: 1/1;
     grid-row: 1/1;
-    margin-left: 10px;
 }
 
-.header{
-    padding: 2rem;
+.headers{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     grid-column: 2/2;
@@ -72,19 +69,19 @@ img{
     
 }
 
-
 header a img{
-    width: 40px;
+    width: 30px;
+    margin-right: 10px;
 }
 
 header h1{
   margin-top: 50px;
-  margin-left: 15px;
+  font-size: 2rem;
 }
 
 header h4{
   margin-bottom: 50px;
-  margin-left: 15px;
+  font-size: 1.5rem;
 }
 
 .social{   
@@ -101,6 +98,7 @@ header h4{
 nav{
     grid-column: 1/6;
     grid-row: 2/3;
+    font-size: 1.5rem;
 }
 
 nav button{
@@ -144,7 +142,7 @@ nav ul.open{display: block;}
 header p{
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Handlee', cursive;
     grid-column: 1/6;
     grid-row: 3/4;
@@ -304,7 +302,7 @@ footer{
 }
 
 footer img{
-  width: 60px;
+  width: 130px;
 }
 
 footer p{

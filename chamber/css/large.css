@@ -3,7 +3,7 @@
     font-size: 5rem;
   }
   
-  header img{
+  .header-img{
     width: 300px;
     grid-column: 1/1;
     grid-row: 1/1;
