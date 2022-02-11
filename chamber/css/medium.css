@@ -6,7 +6,7 @@
     display: flex;
     }
   .header-img{
-    width: 300px;
+    width: 150px;
   }
   .headers{
     font-family: 'Handlee', cursive;
@@ -22,7 +22,7 @@
     }
     
     header h4{
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 50px;
       margin-right: 150px;
     }
