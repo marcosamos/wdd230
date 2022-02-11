@@ -38,10 +38,10 @@
       grid-area: 1 / 1 / 2 / 3;
     }
 
-    .callToAction section{
+    .callToAction button{
       text-align: center;
-      width: 15rem;
-      height: 6rem;
+      width: 20rem;
+      height: 8rem;
       font-size: 3rem;
       position: absolute;
       top: 120px;
@@ -72,9 +72,11 @@
       padding: 60px;
     }
 
-    .join h1{
+    .join button{
       background-color: #BF8A3D;
-      border-radius: 20px;
+      border-radius: 30px;
+      font-size: 3rem;
+      color: black;
     }
 
     .join p{
