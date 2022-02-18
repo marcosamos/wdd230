@@ -303,3 +303,13 @@ footer p{
 .map{
   padding: 15px;
 }
+
+
+
+/* Directory page*/
+
+#directory-main{
+  text-align: center;
+  display: block;
+}
+
