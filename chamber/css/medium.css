@@ -123,3 +123,29 @@
       grid-column: 1/5;
   }
 }
+
+
+/* Directory page*/
+
+#directory-main{
+  text-align: center;
+  display: block;
+}
+
+
+#directory-main section picture img{
+  width: 60%;
+  height: 50%;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#directory-main h1{
+  font-size: 5rem;
+}
+
+#directory-main p{
+  padding: 20px;
+  font-size: 2rem;
+}
