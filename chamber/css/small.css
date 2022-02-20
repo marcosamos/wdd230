@@ -315,8 +315,8 @@ footer p{
 
 
 #directory-main section picture img{
-  width: 70%;
-  height: 60%;
+  width: 80%;
+  height: 70%;
   border: 3px solid #ddd;
   border-radius: 4px;
   padding: 10px;
@@ -329,4 +329,13 @@ footer p{
 #directory-main p{
   padding: 20px;
   font-size: 2rem;
+}
+
+#directory-main picture img[data-src] {
+  filter: blur(0.2em);
+}
+#directory-main picture img {
+  filter: none;
+  transition: filter 3s;
+  width: 100%;
 }
