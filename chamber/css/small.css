@@ -315,8 +315,8 @@ footer p{
 
 
 #directory-main section picture img{
-  width: 80%;
-  height: 70%;
+  max-width: 80%;
+  height: auto;
   border: 3px solid #ddd;
   border-radius: 4px;
   padding: 10px;
@@ -336,6 +336,5 @@ footer p{
 }
 #directory-main picture img {
   filter: none;
-  transition: filter 3s;
-  width: 100%;
+  transition: filter 2s;
 }
