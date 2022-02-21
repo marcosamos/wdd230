@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1100px) {
+  header h1{
+    font-size: 5rem;
+  }
+  
+  .header-img{
+    width: 150px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+    }
+  
+    header a img{
+    width: 45px;
+    }
+    
+    header p{
+      display: inline;
+    }
+
+    .social{   
+      text-align: center;
+      grid-column: 5/5;
+      grid-row: 1/1;
+      display: flex;
+  }
+
+    nav ul#primaryNav {
+      display: flex;
+      justify-items: center;
+    }
+
+    nav {
+      grid-column: 4/4;
+      grid-row: 1/1;
+      margin-bottom: 20px;
+    }
+    nav button {
+      display: none;
+    }
+    
+    nav ul li a {
+      border: none;
+      font-size: 2.5rem;
+    }
+
+    main {
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+    }
+    .callToAction {
+      grid-area: 1 / 2 / 3 / 3;
+    }
+    
+    .callToAction h1{
+      position: absolute;
+      margin-left: 10px;
+      color: black;
+      font-size: 4rem;
+    }
+
+    .spotLights {
+      grid-area: 1 / 3 / 4 / 4;
+      display: block;
+    }
+    .footerLogo img {
+      display: flex;
+      justify-self: flex-start;
+    }
+    .spotLight3 {
+      display: inline-table;
+      align-items: center;
+      height: 8rem;
+      margin: 10px;
+    }
+  
+    .join {
+      grid-area: 3 / 1 / 4 / 2;
+    }
+    .news {
+      grid-area: 3 / 2 / 4 / 3;
+    }
+    .event {
+      grid-area: 1 / 1 / 2 / 2;
+    }
+    .weather {
+      grid-area: 2 / 1 / 3 / 2;
+    }
+  } /* end large */
