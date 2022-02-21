@@ -149,3 +149,7 @@
   padding: 20px;
   font-size: 2rem;
 }
+
+#directory-main picture img:hover{
+  transform: scale(1.1);
+  }
