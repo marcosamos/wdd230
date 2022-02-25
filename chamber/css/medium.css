@@ -1,16 +1,15 @@
 @media only screen and (min-width: 675px) {
   .social{   
-    text-align: center;
+    text-align: end;
     grid-column: 4/4;
     grid-row: 1/1;
-    display: flex;
+    display:block;
     }
   .header-img{
     width: 150px;
   }
   .headers{
     font-family: 'Handlee', cursive;
-    text-align: center;
     grid-column: 2/4;
     grid-row: 1/1;
     }
@@ -130,15 +129,6 @@
 #directory-main{
   text-align: center;
   display: block;
-}
-
-
-#directory-main section picture img{
-  width: 40%;
-  height: 40%;
-  border: 3px solid #ddd;
-  border-radius: 4px;
-  padding: 10px;
 }
 
 #directory-main h1{

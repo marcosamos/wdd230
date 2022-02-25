@@ -59,14 +59,8 @@ header{
 
 .headers{
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     grid-column: 2/2;
     grid-row: 1/1;
-}
-
-img{
-    align-items: center;
-    
 }
 
 header a img{
