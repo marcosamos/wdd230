@@ -68,13 +68,13 @@ header a img{
     margin-right: 10px;
 }
 
-header h1{
-  font-size: 3rem;
+.headers h1{
+  font-size: 4rem;
 }
 
-header h4{
+.headers h2{
   margin-bottom: 50px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .social{   
