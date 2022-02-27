@@ -338,7 +338,6 @@ footer p{
 
 #main-join{
   display: block;
-  /*background-color: rgb(177, 186, 189);*/
   background-color: rgb(197, 206, 209);
 }
 
@@ -382,7 +381,12 @@ footer p{
 
 /* Thankyou page*/
 #main-thankyou{
+  display: block;
   text-align: center;
+  background-color: rgb(197, 206, 209);
+  margin: auto;
+  max-width: 50%;
+  border: black 3px solid;
 }
 
 #main-thankyou h1{
