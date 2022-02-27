@@ -155,7 +155,10 @@ main{
   background-color: var(--color-secundary);
 }
 
-
+.join a{
+  color: black;
+  text-decoration: none;
+}
 
 .callToAction{
   position: relative;
@@ -186,6 +189,10 @@ main{
   color: white;
 }
 
+.callToAction button a{
+  color: white;
+  text-decoration: none;
+}
 .news {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-secundary);
