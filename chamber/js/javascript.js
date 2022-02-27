@@ -66,3 +66,14 @@ function hideElement(){
 function showElement(){
 	popUp.setAttribute('class', 'shown');
 }
+
+
+
+// join page
+function join_current_date() {
+	if (!document.querySelector('form input[name="current_date"]')) {
+	  return;
+	}
+  
+	document.querySelector('form input[name="current_date"]').value = new Date();
+  }

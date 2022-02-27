@@ -44,7 +44,102 @@
         <p id="header-date"></p>
         </header>
 
-        <main>
+        <main id="main-join">
+            <h1>Join Canaco Chamber of Commerce</h1>
+
+            <form method="get" action="thankyou.html">
+                <label>
+                    First Name* <input type="text" name="first_name" required />
+                  </label>
+        
+                  <label>
+                    Last Name* <input type="text" name="last_name" required />
+                  </label>
+        
+                  <label>
+                    Title
+                    <input
+                      type="text"
+                      name="title"
+                      pattern="[A-Za-z \-]{7,}"
+                      placeholder="Enter alphabets, spaces, and hyphens only (minimum 7 characters)"
+                    />
+                  </label>
+        
+                  <label>
+                    Email Address*
+                    <input
+                      type="email"
+                      name="email_address"
+                      required
+                      placeholder="you@yourdomain.com"
+                    />
+                  </label>
+        
+                  <label>
+                    Cell Phone Number*
+                    <input
+                      type="tel"
+                      name="cell_phone_number"
+                      required
+                      placeholder="+1-xxxxxxxxxx"
+                    />
+                  </label>
+        
+                  <label>
+                    Business Name* <input type="text" name="business_name" required />
+                  </label>
+        
+                  <p>Membership Level*</p>
+        
+                  <label class="for-radio">
+                    <input
+                      type="radio"
+                      name="membership_level"
+                      value="non-profit"
+                      required
+                    />
+                    Non-profit
+                  </label>
+        
+                  <label class="for-radio">
+                    <input
+                      type="radio"
+                      name="membership_level"
+                      value="Bronze"
+                      required
+                    />
+                    Bronze
+                  </label>
+        
+                  <label class="for-radio">
+                    <input
+                      type="radio"
+                      name="membership_level"
+                      value="silver"
+                      required
+                    />
+                    Silver
+                  </label>
+        
+                  <label class="for-radio">
+                    <input type="radio" name="membership_level" value="gold" required />
+                    Gold
+                  </label>
+        
+                  <label>
+                    Business Description
+                    <textarea name="business_description"></textarea>
+                  </label>
+        
+                  <input type="hidden" name="current_date" />
+        
+                  <input type="submit" value="Join Now!" />
+
+            </form>
+
+
+
 
         </main>
 

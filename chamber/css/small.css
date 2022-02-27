@@ -332,3 +332,63 @@ footer p{
   filter: none;
   transition: filter 2s;
 }
+
+
+/* join page */
+
+#main-join{
+  display: block;
+  /*background-color: rgb(177, 186, 189);*/
+  background-color: rgb(197, 206, 209);
+}
+
+#main-join h1{
+  text-align: center;
+  font-size: 5rem;
+  background-color: var(--color-secundary);
+  color: white;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+#main-join form{
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#main-join label{
+  display: block;
+  padding: 2rem;
+}
+
+#main-join label:not(.for-radio) {
+  margin: 3rem 0;
+}
+
+#main-join label > *:not([type="radio"]) {
+  display: block;
+  margin: 0.5rem 0 0 0;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+#main-join form input[type="submit"] {
+  padding: 1rem 2rem;
+  border: var(--color-terceary) 2px solid;
+  background-color: var(--color-secundary);
+  color: white;
+}
+
+/* Thankyou page*/
+#main-thankyou{
+  text-align: center;
+}
+
+#main-thankyou h1{
+font-size: 5rem;
+}
+
+#main-thankyou p{
+  font-size: 2rem;
+  }
