@@ -38,5 +38,6 @@ tr:nth-child(4) td:nth-child(3) {
 }
 
 tfoot td{
-    background-color: rgb(185, 235, 49);
+    background-color: rgb(59, 131, 59);
+    color: white;
 }
