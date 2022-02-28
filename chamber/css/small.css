@@ -42,7 +42,7 @@ html{
 /* Header*/
 header{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -53,21 +53,28 @@ header{
 
 .header-img{
     width: 100px;
-    grid-column: 1/1;
-    grid-row: 1/1;
 }
+
+header picture{
+  margin: 10px 0 0 5px;
+  text-align:center;
+}
+
 
 .headers{
     font-family: 'Roboto', sans-serif;
-    grid-column: 2/2;
+    grid-column: 1/1;
     grid-row: 1/1;
+    display: flex;
 }
 
 header a img{
     width: 30px;
     margin-right: 10px;
 }
-
+.headers div{
+  margin-left: 20px;
+}
 .headers h1{
   font-size: 4rem;
 }
@@ -78,10 +85,9 @@ header a img{
 }
 
 .social{   
-    text-align: center;
-    grid-column: 4/5;
+    text-align: end;
+    grid-column: 2/2;
     grid-row: 1/1;
-    display: flex;
 }
 
 .active{
@@ -89,7 +95,7 @@ header a img{
 }
 
 nav{
-    grid-column: 1/6;
+    grid-column: 1/3;
     grid-row: 2/3;
     font-size: 1.5rem;
 }
@@ -137,8 +143,8 @@ header p{
     text-align: center;
     font-size: 2rem;
     font-family: 'Handlee', cursive;
-    grid-column: 1/6;
-    grid-row: 3/4;
+    grid-column: 1/4;
+    grid-row: 3/3;
 }
 
 /* Main */

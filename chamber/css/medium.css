@@ -1,33 +1,12 @@
 @media only screen and (min-width: 675px) {
-  .social{   
-    text-align: end;
-    grid-column: 4/4;
-    grid-row: 1/1;
-    display:block;
-    }
   .header-img{
-    width: 150px;
+    width: 100px;
   }
-  .headers{
-    font-family: 'Handlee', cursive;
-    grid-column: 2/4;
-    grid-row: 1/1;
-    }
-
-    header h1{
-      font-size: 5rem;
-      margin-top: 50px;
-      text-align: left;
-    }
-    
-    header h4{
-      font-size: 3rem;
-      margin-bottom: 50px;
-      margin-right: 150px;
-    }
-
-
-    main {
+  
+  header a img{
+    width: 50px;
+  }
+  main {
       grid-template-columns: 3fr 1fr;
       grid-template-rows: repeat(5, 1fr);
       grid-column-gap: 10px;
