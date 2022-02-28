@@ -2,7 +2,10 @@
   .header-img{
     width: 100px;
   }
-  
+  header picture{
+    margin: 10px 0 0 5px;
+    text-align:center;
+  }
   header a img{
     width: 50px;
   }

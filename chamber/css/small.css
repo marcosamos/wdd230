@@ -56,10 +56,9 @@ header{
 }
 
 header picture{
-  margin: 10px 0 0 5px;
+  margin: 10px 0 0 0;
   text-align:center;
 }
-
 
 .headers{
     font-family: 'Roboto', sans-serif;
