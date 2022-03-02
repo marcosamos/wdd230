@@ -1,0 +1,88 @@
+{
+    "business": [
+      {
+        "name": "Baja Pack",
+        "address": "Av de los Insurgentes 12537, Los Alamos",
+        "phone": "800 732 9507",
+        "website": "https://www.bajapack.com/#/home/landing",
+        "imageurl": "https://bajapack.com/assets/images/logo.svg"
+      },
+      {
+        "name": "I love 664",
+        "address": "Blvd. Manuel Jesus Clouthier 5561, Lago Sur, 22550",
+        "phone": "664 625 3750",
+        "website": "https://orgullotj.com/",
+        "imageurl": "https://i0.wp.com/orgullotj.com/wp-content/uploads/2021/08/Logo-para-portada-de-web.png?resize=150%2C150&ssl=1"
+      },
+      {
+        "name": "Tacna",
+        "address": "Aguila Coronada 19491, Cerro Colorado, 22215",
+        "phone": "6646811400",
+        "website": "https://tacna.net/",
+        "imageurl": "https://tacna.net/wp-content/themes/tacna/image/logo.png"
+      },
+      {
+        "name": "Beverly Burgers",
+        "address": "Blvd. Gustavo Diaz Ordaz 3267-Local 12, La Joya, 22116",
+        "phone": "664 689 2050",
+        "website": "https://www.beverlyburgers.com/",
+        "imageurl": "https://static.wixstatic.com/media/70c3be_edabe82f3ca040e98d4a3bb8f05887b8~mv2.png/v1/fill/w_242,h_182,al_c,q_85,usm_0.66_1.00_0.01/70c3be_edabe82f3ca040e98d4a3bb8f05887b8~mv2.webp"
+      },
+      {
+        "name": "Salsa la Perrona",
+        "address": "Madre Antonia Brenner 4670 Int 26C Fraccionamiento, Las Lilas",
+        "phone": "6641045496",
+        "website": "https://salsalaperrona.com/",
+        "imageurl": "https://cdn.shopify.com/s/files/1/0525/1170/3205/files/LaPerrona-01_180x.png?v=1637660025"
+      },
+      {
+        "name": "Caliente",
+        "address": "Av de los Insurgentes 18015, Rio Tijuana 3ra Etapa",
+        "phone": "664 627 0158",
+        "website": "",
+        "imageurl": ""
+      },
+      {
+        "name": "Sterem",
+        "address": "Av de los Insurgentes 18015, Río Tijuana 3a. Etapa",
+        "phone": "Av de los Insurgentes 18015, Río Tijuana 3a. Etapa, Rio Tijuana 3ra Etapa, 22120 Tijuana, B.C.",
+        "website": "https://www.steren.com.mx/",
+        "imageurl": "https://www.steren.com.mx/media/logo/stores/1/logo_2.png"
+      },
+      {
+        "name": "Turbotec",
+        "address": "Av. Chilpancingo 1361, Parque Industrial Chilpancingo",
+        "phone": "6646474100",
+        "website": "",
+        "imageurl": ""
+      },
+      {
+        "name": "Supplier Support",
+        "address": "https://turbotec.es/",
+        "phone": "954361967",
+        "website": "https://turbotec.es/",
+        "imageurl": "https://turbotec.es/wp-content/uploads/2017/11/logo.png"
+      },
+      {
+        "name": "Torta Plaza",
+        "address": "Av de los Insurgentes 18015",
+        "phone": "664 623 1151",
+        "website": "latortaplaza.com",
+        "imageurl": "https://latortaplaza.com/img/logo@3x.png"
+      },
+      {
+        "name": "UABC",
+        "address": "Universidad 14418, UABC",
+        "phone": "6649797500",
+        "website": "https://www.uabc.mx/",
+        "imageurl": "https://www.uabc.mx/wp-content/uploads/2021/03/Logo96.png"
+      },
+      {
+        "name": "Aceros Frontera",
+        "address": "Blvd. Cucapah 20498, Buenos Aires Sur",
+        "phone": "+526646295828",
+        "website": "https://acerosfrontera.com/",
+        "imageurl": "https://acerosfrontera.com/wp-content/uploads/2021/05/nuevo-logo-para-pagina-web_PNG.png"
+      }
+    ]
+  }
