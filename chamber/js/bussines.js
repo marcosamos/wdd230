@@ -36,4 +36,16 @@ fetch(requestUrl)
     card.appendChild(website);
 
     cards.appendChild(card);
-  }
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("buttonList").onclick = () => {
+    cards.classList.add("listView");
+    cards.classList.remove("cardView");
+  };
+  document.getElementById("buttonGrid").onclick = () => {
+     cards.classList.add("cardView");
+     cards.classList.remove("listView");
+     console.log("Card View");
+   };
+});

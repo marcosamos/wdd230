@@ -108,20 +108,20 @@
 
 /* Directory page*/
 
-#directory-main{
+#discover-main{
   text-align: center;
   display: block;
 }
 
-#directory-main h1{
+#discover-main h1{
   font-size: 5rem;
 }
 
-#directory-main p{
+#discover-main p{
   padding: 20px;
   font-size: 2rem;
 }
 
-#directory-main picture img:hover{
+#discover-main picture img:hover{
   transform: scale(1.1);
   }

@@ -312,15 +312,15 @@ footer p{
 
 
 
-/* Directory page*/
+/* Discover page*/
 
-#directory-main{
+#discover-main{
   text-align: center;
   display: block;
 }
 
 
-#directory-main section picture img{
+#discover-main section picture img{
   max-width: 80%;
   height: auto;
   border: 3px solid #ddd;
@@ -328,25 +328,25 @@ footer p{
   padding: 10px;
 }
 
-#directory-main h1{
+#discover-main h1{
   font-size: 5rem;
 }
 
-#directory-main p{
+#discover-main p{
   padding: 20px;
   font-size: 2rem;
 }
 
-#directory-main picture img[data-src] {
+#discover-main picture img[data-src] {
   filter: blur(0.2em);
 }
-#directory-main picture img {
+#discover-main picture img {
   filter: none;
   transition: filter 2s;
 }
 
 
-/* join page */
+/* ------------------ join page --------------------- */
 
 #main-join{
   display: block;
@@ -391,7 +391,7 @@ footer p{
   color: white;
 }
 
-/* Thankyou page*/
+/* ------------------- Thankyou page ------------------*/
 #main-thankyou{
   display: block;
   text-align: center;
@@ -409,22 +409,62 @@ font-size: 5rem;
   font-size: 2rem;
   }
 
-/* Directory page*/
-.directory_content{
+/* ----------------- Directory page ---------------*/
+
+#directory_content{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
   display: block;
 }
 
-.directory_content h1{
+#directory_content h1{
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
+  /* Buttons views*/
+
+.listView section {
+  display: block;
+}
+
+.listView img {
+  display: none;
+}
+
+.cardView img {
+  display: flex;
+}
+
+  /* Cards */
 .directory{
   text-align: center;
+  display: block;
 }
 
 .directory section{
   border: var(--color-secundary) 3px solid;
   text-align: center;
   padding: 3rem;
+  text-align: center;
+  display: block;
+}
+
+
+.listView p {
+  font-size: 50%;
+}
+.listView em {
+  font-size: 50%;
+  font-weight: bold;
+}
+
+.directory img {
+  width: auto;
+  margin: 0 auto;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  max-width: 325px;
+  height: auto;
 }
