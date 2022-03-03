@@ -414,13 +414,20 @@ font-size: 5rem;
 #directory_content{
   margin: 0 auto;
   text-align: center;
-  width: 100%;
+  width: 80%;
   display: block;
 }
 
 #directory_content h1{
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+#directory_content button{
+  font-size: 3rem;
+  margin: 1.5rem;
 }
 
   /* Buttons views*/
@@ -433,9 +440,6 @@ font-size: 5rem;
   display: none;
 }
 
-.cardView img {
-  display: flex;
-}
 
   /* Cards */
 .directory{
@@ -451,17 +455,18 @@ font-size: 5rem;
   display: block;
 }
 
-
-.listView p {
-  font-size: 50%;
+.directory section h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
 }
-.listView em {
-  font-size: 50%;
-  font-weight: bold;
+
+.directory section p{
+  font-family: 'Handlee', cursive;
+  font-size: 1.5rem;
 }
 
 .directory img {
-  width: auto;
+  width: 90%;
   margin: 0 auto;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
