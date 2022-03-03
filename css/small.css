@@ -3,5 +3,10 @@
 {
     .display_grid, header{
         display: block;
+        text-align: center;
+    }
+
+    .main_ul{
+        width:  80%;
     }
 }
