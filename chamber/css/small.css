@@ -410,4 +410,21 @@ font-size: 5rem;
   }
 
 /* Directory page*/
-  
+.directory_content{
+  display: block;
+}
+
+.directory_content h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.directory{
+  text-align: center;
+}
+
+.directory section{
+  border: var(--color-secundary) 3px solid;
+  text-align: center;
+  padding: 3rem;
+}

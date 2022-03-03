@@ -85,3 +85,11 @@
       grid-area: 2 / 1 / 3 / 2;
     }
   } /* end large */
+
+
+  /* Large view */
+
+  .directory{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
