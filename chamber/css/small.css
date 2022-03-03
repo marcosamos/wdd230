@@ -412,9 +412,7 @@ font-size: 5rem;
 /* ----------------- Directory page ---------------*/
 
 #directory_content{
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
+  text-align: center;  
   display: block;
 }
 
