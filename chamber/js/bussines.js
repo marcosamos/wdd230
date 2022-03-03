@@ -29,8 +29,9 @@ fetch(requestUrl)
     website.textContent = business.website;
 
 
-    card.appendChild(companyName);
+    
     card.appendChild(logo);
+    card.appendChild(companyName);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
