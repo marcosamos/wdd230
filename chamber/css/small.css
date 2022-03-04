@@ -410,9 +410,9 @@ font-size: 5rem;
   }
 
 /* ----------------- Directory page ---------------*/
-
 #directory_content{
-  text-align: center;  
+  text-align: center;
+  width: 100%;
   display: block;
 }
 
@@ -434,23 +434,32 @@ font-size: 5rem;
   display: block;
 }
 
+
 .listView img {
   display: none;
 }
+.listView section:nth-child(even){
+  background-color: rgb(150, 253, 219);
+}
 
+.listView section:nth-child(odd){
+  background-color: white;
+    
+}
+.carView img{
+  display: flex;
+}
 
   /* Cards */
 .directory{
   text-align: center;
-  display: block;
+  display:grid;
+
 }
 
 .directory section{
   border: var(--color-secundary) 3px solid;
   text-align: center;
-  padding: 3rem;
-  text-align: center;
-  display: block;
 }
 
 .directory section h2{
@@ -464,7 +473,7 @@ font-size: 5rem;
 }
 
 .directory img {
-  width: 90%;
+  width: auto;
   margin: 0 auto;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;

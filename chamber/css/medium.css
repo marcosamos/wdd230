@@ -103,28 +103,50 @@
   footer p{
       grid-column: 1/5;
   }
-}
+ 
 
 
 /* Discpver page*/
 
-#discover-main{
+ #discover-main{
   text-align: center;
   display: block;
-}
+ }
 
-#discover-main h1{
+ #discover-main h1{
   font-size: 5rem;
-}
+ }
 
-#discover-main p{
+ #discover-main p{
   padding: 20px;
   font-size: 2rem;
-}
+ }
 
-#discover-main picture img:hover{
+ #discover-main picture img:hover{
   transform: scale(1.1);
   }
 
 
 /* Directory page */
+.directory {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+}
+.listView {
+  display: grid;
+}
+.listView section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardView {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;
+}
+
+}

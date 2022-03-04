@@ -6,7 +6,6 @@ fetch(requestUrl)
         return response.json();
   })
   .then(function (jsonObject) {
-    // console.table(jsonObject);  // temporary checking for valid response and data parsing
     const business = jsonObject['business'];
     business.forEach(displayBusiness);
   });
