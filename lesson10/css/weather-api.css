@@ -11,7 +11,7 @@ html{
 body{
     margin-top: 100px;
     text-align: center;
-    background-image: url("/lesson10/images/weatherActivity.png");
+    background-image: url("../images/weatherActivity.png");
 }
 
 main{
