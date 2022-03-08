@@ -16,7 +16,7 @@
 </head>
 <body>
     <div id="popup">
-        🤝🏼 <a href="">Come join us</a> for the chamber meet and greet Wednesday at 7:00 p.m
+        🤝🏼 <a href="join.html">Come join us</a> for the chamber meet and greet Wednesday at 7:00 p.m
         <button id="button">❌</button>
     </div>
     <header>
@@ -72,10 +72,13 @@
 
             <div class="weather">
                 <div class="weatherImage">
-                    <img src="images/weather2.png" alt="Sun and clouds">
+                    <img src="" id="weathericon"  alt="">
+                    <span class="temperature"></span>
+                    <span class="tempUnits"> ºF</span>
+                    <span id="desc"></span>
                 </div>
-                <span class="temperature">77</span><span class="tempUnits"> ºF</span>
-                <p>Wind Speed: </p> <span class="windSped">4.3</span><span class="speedUnits"> mph</span>
+                <hr>
+                <p>Wind Speed: </p> <span class="windSped"></span><span class="speedUnits"> mph</span>
                 <p>Wind Chill: </p> <span id="windChill"></span><span class="chillUnits"> ºF</span>
             </div>
 
@@ -116,5 +119,6 @@
     </footer>
     <script src="js/javascript.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weatherApi.js"></script>
 </body>
 </html>
