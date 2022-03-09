@@ -295,6 +295,11 @@ main{
   margin-top: 10px;
 }
 
+.weather hr{
+  margin: auto;
+  width: 80%;
+}
+
 .windSped,.speedUnits,.windChill,.chillUnits{
   font-size: 1.5rem;
 }
