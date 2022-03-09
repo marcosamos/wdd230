@@ -10,5 +10,4 @@ document.querySelector('.temperature').textContent = Math.round(jsObject.main.te
 document.querySelector('#weathericon').setAttribute('alt', desc);
 document.querySelector("#desc").textContent = desc
 document.querySelector('.windSped').textContent = jsObject.wind.speed;
-
 });
