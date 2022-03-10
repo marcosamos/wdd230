@@ -272,7 +272,7 @@ main{
 }
 
 .weather h1{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #weathericon{
@@ -280,7 +280,7 @@ main{
 }
 
 #desc{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .temperature, .tempUnits {
@@ -290,7 +290,7 @@ main{
 
 .weather p{
   margin: 10px 0 10px 0;
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: white;
   margin-top: 10px;
 }
@@ -301,7 +301,7 @@ main{
 }
 
 .windSped,.speedUnits,.windChill,.chillUnits{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 footer{
