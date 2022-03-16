@@ -88,7 +88,7 @@
 
 
   /* Large view */
-  .directory_content {
+  #directory_content{
     grid-area: 1 / 1 / 4 / 4;
     width: 100%;
   }
@@ -109,7 +109,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 5px;
-
   }
   .listView p {
     font-size: 100%;

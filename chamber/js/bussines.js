@@ -46,6 +46,5 @@ window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("buttonGrid").onclick = () => {
      cards.classList.add("cardView");
      cards.classList.remove("listView");
-     console.log("Card View");
    };
 });

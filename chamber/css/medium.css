@@ -106,7 +106,7 @@
  
 
 
-/* Discpver page*/
+/* Discover page*/
 
  #discover-main{
   text-align: center;
@@ -127,26 +127,26 @@
   }
 
 
-/* Directory page */
-.directory {
+ /* Directory page */
+  .directory {
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 5px;
-}
-.listView {
+  }
+  .listView {
   display: grid;
-}
-.listView section {
+  }
+  .listView section {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
+  }
 
-.cardView {
+  .cardView {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5px;
-}
+  }
 
 }
