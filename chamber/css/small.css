@@ -498,3 +498,16 @@ font-size: 5rem;
   max-width: 325px;
   height: auto;
 }
+
+/* Contact page */
+#main_contact{
+  display: block;
+}
+
+#main_contact form fieldset {
+  margin: 2rem auto;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 0.5rem;
+  max-width: 25rem;
+}

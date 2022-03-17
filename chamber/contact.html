@@ -56,8 +56,25 @@
         </nav>
         <p id="header-date"></p>
         </header>
-    <main>
-        
+    <main id="main_contact">
+        <form method="get" action="answer.html">
+            <fieldset>
+                <legend>Primary Contact</legend>
+                <label for="fname" class="jotop"> First Name* <input type="text" name="fname" id="fname" required></label>
+                <label for="lname" class="jotop"> Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label for="phone" class="jotop"> Phone* <input type="tel" name="phone" placeholder="1235551234" id="phone" required></label>
+                <label for="email" class="jotop"> Email* <input type="email" name="email" id="email" required placeholder="person@email.com"></label>
+                <label class="jotop" for="buisname">Business Name<input type="text" id="buisname" name="buisname"></label>
+                <legend>Are you a member?</legend>
+                <label class="conrb" for="membership"><input type="radio" name="membership" id="membership" value="yes">Yes</label>
+                <label class="conrb" for="membership"><input type="radio" name="membership" id="membership" value="no">No</label>
+                <label class="conrb" for="membership"><input type="radio" name="membership" id="membership" value="unknown">I don't know</label>
+                <label for="msg" class="comsg">Message <textarea name="comsg" id="comsg" cols="40" rows="10"></textarea>
+                <input class="cobtn" type="submit" value="Send Message">
+                </fieldset>
+        </form>
+
+        <h1>I am working in this yet</h1>
     </main>
     <footer>
             <img class="footerLogo" src="images/canaco-logo.webp" alt="Canaco chamber logo">
