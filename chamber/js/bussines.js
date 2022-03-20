@@ -1,5 +1,9 @@
 const requestUrl = "https://marcosamos.github.io/wdd230/chamber/data/data.json"
 const cards = document.querySelector(".directory");
+// index page show gold and silver members
+
+// directory page
+
 
 fetch(requestUrl)
     .then(function (response) {

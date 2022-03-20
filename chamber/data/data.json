@@ -5,84 +5,96 @@
         "address": "Av de los Insurgentes 12537, Los Alamos",
         "phone": "800 732 9507",
         "website": "https://www.bajapack.com/#/home/",
-        "imageurl": "https://bajapack.com/assets/images/logo.svg"
+        "imageurl": "https://bajapack.com/assets/images/logo.svg",
+        "status": "Gold"
       },
       {
         "name": "I love 664",
         "address": "Blvd. Manuel Jesus Clouthier 5561, Lago Sur, 22550",
         "phone": "664 625 3750",
         "website": "https://orgullotj.com/",
-        "imageurl": "https://i0.wp.com/orgullotj.com/wp-content/uploads/2021/08/Logo-para-portada-de-web.png?resize=150%2C150&ssl=1"
+        "imageurl": "https://i0.wp.com/orgullotj.com/wp-content/uploads/2021/08/Logo-para-portada-de-web.png?resize=150%2C150&ssl=1",
+        "status": "Silver"
       },
       {
         "name": "Tacna",
         "address": "Aguila Coronada 19491, Cerro Colorado, 22215",
         "phone": "6646811400",
         "website": "https://tacna.net/",
-        "imageurl": "https://tacna.net/wp-content/themes/tacna/image/logo.png"
+        "imageurl": "https://tacna.net/wp-content/themes/tacna/image/logo.png",
+        "status": "Silver"
       },
       {
         "name": "Beverly Burgers",
         "address": "Blvd. Gustavo Diaz Ordaz 3267-Local 12, La Joya, 22116",
         "phone": "664 689 2050",
         "website": "https://www.beverlyburgers.com/",
-        "imageurl": "https://static.wixstatic.com/media/70c3be_edabe82f3ca040e98d4a3bb8f05887b8~mv2.png/v1/fill/w_242,h_182,al_c,q_85,usm_0.66_1.00_0.01/70c3be_edabe82f3ca040e98d4a3bb8f05887b8~mv2.webp"
+        "imageurl": "https://static.wixstatic.com/media/70c3be_edabe82f3ca040e98d4a3bb8f05887b8~mv2.png/v1/fill/w_242,h_182,al_c,q_85,usm_0.66_1.00_0.01/70c3be_edabe82f3ca040e98d4a3bb8f05887b8~mv2.webp",
+        "status": "Bronze"
       },
       {
         "name": "Salsa la Perrona",
         "address": "Madre Antonia Brenner 4670 Int 26C Fraccionamiento, Las Lilas",
         "phone": "6641045496",
         "website": "https://salsalaperrona.com/",
-        "imageurl": "https://cdn.shopify.com/s/files/1/0525/1170/3205/files/LaPerrona-01_180x.png?v=1637660025"
+        "imageurl": "https://cdn.shopify.com/s/files/1/0525/1170/3205/files/LaPerrona-01_180x.png?v=1637660025",
+        "status": "Silver"
       },
       {
         "name": "Caliente",
         "address": "Av de los Insurgentes 18015, Rio Tijuana 3ra Etapa",
         "phone": "664 627 0158",
         "website": "https://calientecasino.com.mx",
-        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iHPumN0NUNpMG6cN3Z_iGUwdRKwnr8YkFD8ac1kiM3xtuHh9O56dqI355DOFHjQawNg&usqp=CAU"
+        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9iHPumN0NUNpMG6cN3Z_iGUwdRKwnr8YkFD8ac1kiM3xtuHh9O56dqI355DOFHjQawNg&usqp=CAU",
+        "status": "Gold"
       },
       {
         "name": "Sterem",
         "address": "Av de los Insurgentes 18015, Río Tijuana 3a. Etapa",
         "phone": "664123547",
         "website": "https://www.steren.com.mx/",
-        "imageurl": "https://www.steren.com.mx/media/logo/stores/1/logo_2.png"
+        "imageurl": "https://www.steren.com.mx/media/logo/stores/1/logo_2.png",
+        "status": "Bronze"
       },
       {
         "name": "Turbotec",
         "address": "Av. Chilpancingo 1361, Parque Industrial Chilpancingo",
         "phone": "6646474100",
         "website": "https://turbotec.es/",
-        "imageurl": "https://turbotec.es/wp-content/uploads/2017/11/logo.png"
+        "imageurl": "https://turbotec.es/wp-content/uploads/2017/11/logo.png",
+        "status": "Gold"
       },
       {
         "name": "Supplier Support",
         "address": "Francisco Eusebio Kino Nte., Garita de Otay",
         "phone": "6646473103",
         "website": "https://sites.google.com/view/ssttijuana/inicio",
-        "imageurl": "https://lh4.googleusercontent.com/K-UtHBO_HoXrPbuM8WbBhSvcatn7wD80v4J8vs9gp-Fkgadv0J07Dbqf_9er8-OvhdbGL7vVffLl-xlX_DH5hB4=w16383"
+        "imageurl": "https://lh4.googleusercontent.com/K-UtHBO_HoXrPbuM8WbBhSvcatn7wD80v4J8vs9gp-Fkgadv0J07Dbqf_9er8-OvhdbGL7vVffLl-xlX_DH5hB4=w16383",
+        "status": "Silver"
       },
       {
         "name": "Torta Plaza",
         "address": "Av de los Insurgentes 18015",
         "phone": "664 623 1151",
         "website": "latortaplaza.com",
-        "imageurl": "https://latortaplaza.com/img/logo@3x.png"
+        "imageurl": "https://latortaplaza.com/img/logo@3x.png",
+        "status": "Bronze"
       },
       {
         "name": "UABC",
         "address": "Universidad 14418, UABC",
         "phone": "6649797500",
         "website": "https://www.uabc.mx/",
-        "imageurl": "https://www.uabc.mx/wp-content/uploads/2021/03/Logo96.png"
+        "imageurl": "https://www.uabc.mx/wp-content/uploads/2021/03/Logo96.png",
+        "status": "Gold"
       },
       {
         "name": "Aceros Frontera",
         "address": "Blvd. Cucapah 20498, Buenos Aires Sur",
         "phone": "+526646295828",
         "website": "https://acerosfrontera.com/",
-        "imageurl": "https://acerosfrontera.com/wp-content/uploads/2021/05/nuevo-logo-para-pagina-web_PNG.png"
+        "imageurl": "https://acerosfrontera.com/wp-content/uploads/2021/05/nuevo-logo-para-pagina-web_PNG.png",
+        "status": "Bronze"
       }
     ]
   }

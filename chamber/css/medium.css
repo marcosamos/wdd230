@@ -19,13 +19,13 @@
       grid-area: 1 / 1 / 2 / 3;
     }
 
-    .callToAction button{
+    .callToAction a{
       text-align: center;
-      width: 20rem;
-      height: 8rem;
-      font-size: 3rem;
+      width: 18rem;
+      height: 5rem;
+      font-size: 4rem;
       position: absolute;
-      top: 120px;
+      top: 80px;
       border-radius: 70px;
       background-color: #6F1F2D;
       color: white;
@@ -53,10 +53,10 @@
       padding: 60px;
     }
 
-    .join button{
+    .join a{
       background-color: #BF8A3D;
       border-radius: 30px;
-      font-size: 3rem;
+      font-size: 5rem;
       color: black;
       height: 6rem;
     }
@@ -149,4 +149,10 @@
   grid-column-gap: 5px;
   }
 
+  /* Contact page */
+  #main_contact{
+  display: flex;
+  flex-direction: row;
 }
+}
+

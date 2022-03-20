@@ -4,15 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Canaco Chamber of Commerce is a platform for people to grow their businesses and receive national information on business news.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -57,24 +48,29 @@
         <p id="header-date"></p>
         </header>
     <main id="main_contact">
-        <form method="get" action="answer.html">
-            <fieldset>
-                <legend>Primary Contact</legend>
-                <label for="fname" class="jotop"> First Name* <input type="text" name="fname" id="fname" required></label>
-                <label for="lname" class="jotop"> Last Name* <input type="text" name="lname" id="lname" required></label>
-                <label for="phone" class="jotop"> Phone* <input type="tel" name="phone" placeholder="1235551234" id="phone" required></label>
-                <label for="email" class="jotop"> Email* <input type="email" name="email" id="email" required placeholder="person@email.com"></label>
-                <label class="jotop" for="buisname">Business Name<input type="text" id="buisname" name="buisname"></label>
-                <legend>Are you a member?</legend>
-                <label class="conrb" for="membership"><input type="radio" name="membership" id="membership" value="yes">Yes</label>
-                <label class="conrb" for="membership"><input type="radio" name="membership" id="membership" value="no">No</label>
-                <label class="conrb" for="membership"><input type="radio" name="membership" id="membership" value="unknown">I don't know</label>
-                <label for="msg" class="comsg">Message <textarea name="comsg" id="comsg" cols="40" rows="10"></textarea>
-                <input class="cobtn" type="submit" value="Send Message">
-                </fieldset>
-        </form>
+        <div class="contact_div">
+            <h1>Contact Us</h1>
+            <img src="images/seo_marcos_uc.jpg" alt="seo canaco">
+            <p>Marcos Rafael Uc Samos</p>
+            <p>Phone number: 9996366224</p>
+            <p>info@canaco.org</p>
+        </div>
 
-        <h1>I am working in this yet</h1>
+        <form method="get" action="thankyou.html">
+            
+                <p>Primary Contact</p>
+                <label for="fname"> First Name* <input type="text" name="fname" id="fname" required></label>
+                <label for="lname"> Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label for="phone"> Phone* <input type="tel" name="phone" placeholder="1235551234" id="phone" required></label>
+                <label for="email"> Email* <input type="email" name="email" id="email" required placeholder="person@email.com"></label>
+                <label for="buisname">Business Name<input type="text" id="buisname" name="buisname"></label>
+                <p>Are you a member?</p>
+                <label for="membership"><input type="radio" name="membership" id="membership" value="yes">Yes</label>
+                <label for="membership"><input type="radio" name="membership" id="membership" value="no">No</label>
+                <label for="membership"><input type="radio" name="membership" id="membership" value="unknown">I don't know</label>
+                <label for="msg">Message <textarea name="comsg" id="comsg" cols="20" rows="5"></textarea>
+                <input type="submit" value="Send Message">
+        </form>
     </main>
     <footer>
             <img class="footerLogo" src="images/canaco-logo.webp" alt="Canaco chamber logo">
