@@ -15,25 +15,22 @@ html{
     font-size: 62.5%;
 }
 
+/* Header */
 header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--color-secundary);
 }
 
 .header-img{
-    width: 100px;
+    width: 70px;
 }
 
-header picture{
-  margin: 10px 0 0 0;
-  text-align:center;
-}
 
 .headers{
-    font-family: 'Roboto', sans-serif;
     grid-column: 1/1;
     grid-row: 1/1;
     display: flex;
@@ -91,7 +88,7 @@ nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: white;
+    color: black;
     border-top: 1px solid rgba(0,0,0,0.5);
     font-family: 'Handlee', cursive;
 }
@@ -107,3 +104,10 @@ nav ul.open{display: block;}
 #menuBtn span:nth-child(2){display: none;}
 #menuBtn.open span:nth-child(1){display: none;}
 #menuBtn.open span:nth-child(2){display: block;}
+
+/* Footer*/
+
+footer{
+    background-color: var(--color-secundary);
+    text-align: center;
+}
