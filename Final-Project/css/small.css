@@ -44,12 +44,8 @@ header a img{
   margin-left: 20px;
 }
 .headers h1{
-  font-size: 3.5rem;
-}
-
-.headers h2{
-  margin-bottom: 50px;
-  font-size: 2rem;
+    margin-top: 25px;
+    font-size: 3.5rem;
 }
 
 .social{   
@@ -125,7 +121,7 @@ nav ul.open{display: block;}
     grid-column: 1;
     grid-row: 1;
     background-color: rgba(240, 240, 240, 0.8);
-    margin: 30rem 2rem;
+    margin: 20rem 1rem;
     padding: 1em;
     text-align: center;
     width: 30rem;
