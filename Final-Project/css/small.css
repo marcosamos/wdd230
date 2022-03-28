@@ -44,7 +44,7 @@ header a img{
   margin-left: 20px;
 }
 .headers h1{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .headers h2{
@@ -105,6 +105,43 @@ nav ul.open{display: block;}
 #menuBtn.open span:nth-child(1){display: none;}
 #menuBtn.open span:nth-child(2){display: block;}
 
+/* main */
+.banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;  
+  }
+    
+.banner-box img {
+    grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+    grid-row: 1;
+}
+    
+.callToAction_banner {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 30rem 2rem;
+    padding: 1em;
+    text-align: center;
+    width: 30rem;
+    height: 10rem;
+}
+.callToAction_banner h3{
+    font-size: 3rem;
+}
+.callToAction_banner a {
+    line-height: 2em;
+    width: 5em;
+    background-color: var(--color-terceary);
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+}  
 /* Footer*/
 
 footer{
