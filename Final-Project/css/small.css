@@ -141,18 +141,24 @@ nav ul.open{display: block;}
 
 .pg{
     text-align: center;
+    padding: 1.5rem;
+}
+
+.pg h1 , p{
+    font-size: 2rem;
 }
 .temple_images{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(1,1fr);
-    padding: 1rem;
+    padding: .3rem;
 
 }
 
 .temple1, .temple2, .temple3{
     width: 100%;
     height: 100%;
+    padding: .3rem;
 }
 
 .temple1{
@@ -176,9 +182,40 @@ nav ul.open{display: block;}
     display: none;
 }
 
+.weather_box{
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    background-color: var(--color-quarter);
+    border: solid black 2px;
+}
+
+.weather_box img{
+    width: 25%;
+}
+
+.callToAction2{
+    border: 1px dotted #D9CAA7;
+    text-align: center;
+}
+.callToAction2 h3{
+    font-size: 3rem;
+}
+.callToAction2 a{
+    line-height: 2em;
+    width: 5em;
+    background-color: var(--color-terceary);
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+}
 /* Footer*/
 
 footer{
     background-color: var(--color-secundary);
     text-align: center;
+}
+
+.footerLogo{
+    width: 8rem;
 }
