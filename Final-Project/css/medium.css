@@ -42,4 +42,30 @@
     .callToAction2 a{
         font-size: 5.5rem;
     }
+
+    footer{
+        display: grid;
+        padding: 2vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        align-items: center;
+      }
+  
+      .footerLogo{
+        justify-self: end;
+        width: 100px;
+      }
+  
+    .footerTitle{
+        text-align: left;
+        grid-column: 2/3;
+    }
+  
+    .map{
+        grid-column: 3/5;
+    }
+  
+    footer p{
+        grid-column: 1/5;
+    }
 }
