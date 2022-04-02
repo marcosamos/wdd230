@@ -199,14 +199,13 @@ nav ul.open{display: block;}
     text-align: center;
 }
 .callToAction2 h3{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .callToAction2 a{
-    line-height: 2em;
     width: 5em;
     background-color: var(--color-terceary);
     color: black;
-    font-size: 3em;
+    font-size: 4.5em;
     text-decoration: none;
 }
 /* Footer*/
@@ -218,4 +217,8 @@ footer{
 
 .footerLogo{
     width: 8rem;
+}
+
+footer div{
+    font-size: 2rem;
 }
