@@ -93,5 +93,27 @@
         grid-row: 2/3;
         border: 20px dotted #D9CAA7;
     }
+
+    /* ----------------- FORM ---------------------*/
+
+    form  {
+    width: 50%;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    opacity: 0.9;
+    }
+ 
+
+    .content_reservation {
+      margin-top: 30px;
+      margin-bottom: 3rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .content_reservation h2{
+      text-align: center
+    }
     
 }

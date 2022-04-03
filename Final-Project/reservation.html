@@ -37,21 +37,55 @@
     </nav>
     </header>
     <main>
-
+        <div class="main_reservation">
+            <h2>Make your reservation</h2>
+            <form method ="get" action ="thankyou.html">
+                <fieldset>
+                   
+                    <label class="top">First Name * <input type="text" name="fname" required></label>
+                    <label class="top">Last Name * <input type="text" name="lname" required></label>
+                    <label class="top">Phone * <input type="tel" name="phone" placeholder ="1235551234" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder ="example@email.com"></label>
+                    <label class="top">Home country  <input type="text" name="hcountry"></label>
+                    <label class="top">Destination city * <input type="text" name="dcity" required></label>
+                    <label class="top">Check-inn * <input type ="date" name="date" id="cinn" required></label>
+                    <label class="top">Check-out * <input type ="date" name="date" id="cout" required></label>
+                    <label class="top">Rooms * <input type="text" name="rooms" required></label>
+                    <div class="types">
+                        <div class="roomtype">
+                            <input type="radio" id="single" name="troom" value="single" checked><label for="single">Single</label>
+                        </div>
+                        <div class="roomtype">
+                            <input type="radio" id="doble" name="troom" value="double" checked><label for="double">Double</label>
+                        </div>
+                        <div class="roomtype">
+                            <input type="radio" id="suite" name="troom" value="suite" checked><label for="suite">Suite</label>
+                        </div>
+                    </div>
+                    <label  class="top special">Special accommodations <textarea name="accommodations" rows="10" cols="40" placeholder="Write special accomnodations here"></textarea></label>
+                    <div class="agreeterms">
+                        <input type="checkbox" id="agree" name="agree" value="agree" required ><label for="agree">agree to terms and conditions</label>
+                    </div>
+                    <input type="submit" value = "Book now" class="submitBtn">
+                </fieldset>
+           
+                
+            </form>
+        </div>
     </main>
     <footer>
-            <img class="footerLogo" src="#" alt="Logo of Temple Inn & Suites">
-            <div class="footerTitle">
-                <h1>The Temple Inn & Suites</h1>
-                <h3>Fogata 4912 Sun Doors Tijuana</h3>
-            </div>
-        <div class="map">
-            <div>info@canaco.org</div>
-            <div>+52 (999)6366224</div>
-            <div>📍 Location Map</div>
+        <img class="footerLogo" src="images/logo_templeAndSuits.webp" alt="Logo of Temple Inn & Suites">
+        <div class="footerTitle">
+            <h1>The Temple Inn & Suites</h1>
+            <h3>Fogata 4912 Sun Doors Tijuana</h3>
         </div>
-        <p><span id="ageAndName"></span> | Marcos Uc | WWD 230 Project | <span id="footerShow"></span></p>
-     
+    <div class="map">
+        <div>info@templeinn.org</div>
+        <div>+52 (999)6366224</div>
+        <div>📍 Location Map</div>
+    </div>
+    <p><span id="ageAndName"></span> | Marcos Uc | WWD 230 Project | <span id="footerShow"></span></p>
+ 
     </footer>
     <script src="js/jsHome.js"></script>
 </body>

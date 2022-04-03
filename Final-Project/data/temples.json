@@ -1,0 +1,72 @@
+{
+    "temples": [
+      {
+        "name": "Tijuana Temple",
+        "address": "Paseo Del Rio 6832 Esquina Campestre Oriente Col 3 RA Etapa Rio Tijuana, 22226 Tijuana, Baja California, Mexico",
+        "phone": "(52) 664-969-2690",
+        "email": "tijuana_temple@lds.com",
+        "imageurl": "https://assets.ldscdn.org/2e/5e/2e5ec687d991bf0427ec2673d34d0faa61ac4ee6/tijuana_mexico_temple_exterior.png",
+        "services": "No clothing rental available  No cafeteria available No patron housing available Distribution center nearby",
+        "History": ["2 October 2010-Announced","18 August 2012-Groundbreaking","13 December 2015 -Dedicated"],
+        "temple-closure-schedule": ["Saturday, 2 April 2022", "Monday 27 June 2022 - Monday, 11 July 2022",
+            "Saturday, 1 October 2022",
+            "Monday, 28 November 2022 - Monday, 12 December 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"]
+      },
+      {
+        "name": "Salt Lake Temple",
+        "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
+        "phone": "800 732 9507",
+        "email": "saltlaketemple@lds.com",
+        "imageurl": "https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg",
+        "services": "unavailable",
+        "History":["28 July 1847-Announced", "14 February 1853Groundbreaking","6 April 1893-Dedicated"],
+        "temple-closure-schedule": "unavailable"
+      },
+      {
+        "name": "Temple of Provo",
+        "address": "Av de los Insurgentes 12537, Los Alamos",
+        "phone": "800 732 9507",
+        "email": "https://www.bajapack.com/#/home/",
+        "imageurl": "https://bajapack.com/assets/images/logo.svg",
+        "services": "Gold",
+        "ordinance-schedule": "Gold",
+        "session-schedule": "Gold",
+        "temple-closure-schedule": "Gold"
+      },
+      {
+        "name": "Temple of Mexico city",
+        "address": "Av de los Insurgentes 12537, Los Alamos",
+        "phone": "800 732 9507",
+        "email": "https://www.bajapack.com/#/home/",
+        "imageurl": "https://bajapack.com/assets/images/logo.svg",
+        "services": "Gold",
+        "ordinance-schedule": "Gold",
+        "session-schedule": "Gold",
+        "temple-closure-schedule": "Gold"
+      },
+      {
+        "name": "Temple of San Diego",
+        "address": "Av de los Insurgentes 12537, Los Alamos",
+        "phone": "800 732 9507",
+        "email": "https://www.bajapack.com/#/home/",
+        "imageurl": "https://bajapack.com/assets/images/logo.svg",
+        "services": "Gold",
+        "ordinance-schedule": "Gold",
+        "session-schedule": "Gold",
+        "temple-closure-schedule": "Gold"
+      },
+      {
+        "name": "Temple of Rome",
+        "address": "Av de los Insurgentes 12537, Los Alamos",
+        "phone": "800 732 9507",
+        "email": "https://www.bajapack.com/#/home/",
+        "imageurl": "https://bajapack.com/assets/images/logo.svg",
+        "services": "Gold",
+        "ordinance-schedule": "Gold",
+        "session-schedule": "Gold",
+        "temple-closure-schedule": "Gold"
+      }
+    ]
+  }
