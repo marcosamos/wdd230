@@ -102,6 +102,10 @@ nav ul.open{display: block;}
 #menuBtn.open span:nth-child(2){display: block;}
 
 /* main */
+
+div{
+    margin: 10px 0 10px 0;
+}
 .banner-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -213,6 +217,7 @@ nav ul.open{display: block;}
 footer{
     background-color: var(--color-secundary);
     text-align: center;
+    padding: 1rem;
 }
 
 .footerLogo{
@@ -223,10 +228,46 @@ footer div{
     font-size: 2rem;
 }
 
+
+/*------------------Services-------------------*/
+
+.main-services{
+    display: block;
+    padding: 1rem;
+}
+.main-services h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+.main-services h2{
+    font-size: 3rem;
+    padding: .5rem;
+}
+
+.main-services ul{
+    border: 4px dotted var(--color-terceary);
+    background-color: #D9CAA7;
+}
+.main-services ul li{
+    font-size: 2rem;
+    text-decoration: dotted;
+    padding: 1rem;
+}
+
+.main-services a{
+    border: 1px black dotted;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 3rem;
+    background-color: var(--color-terceary);
+}
+
 /* ----------------- FORM ---------------------*/
 
 .main_reservation {
-    background-color: var(--color-terceary);
+    background-color: var(--color-quarter);
     margin-top: 0.85rem;
     margin-bottom: 1rem;
     padding-left: 1rem;
