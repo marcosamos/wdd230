@@ -264,6 +264,11 @@ footer div{
     background-color: var(--color-terceary);
 }
 
+.main-services a:hover{
+    background-color: red;
+    color:white;
+}
+
 /* ----------------- FORM ---------------------*/
 
 .main_reservation {
