@@ -15,6 +15,15 @@ html{
     font-size: 62.5%;
 }
 
+/*-----------------Font------------------------*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather';
+}
+
+p, a{
+    font-family: 'Public Sans';
+}
 /* Header */
 header{
     display: grid;
@@ -228,6 +237,10 @@ footer div{
     font-size: 2rem;
 }
 
+footer a img{
+    width: 30px;
+    margin-right: 10px;
+}
 
 /*------------------Services-------------------*/
 
@@ -351,3 +364,34 @@ form fieldset {
   form label.top textarea:required:valid {
     border-left: green solid 6px;
   }
+
+  /* Wedding servises */
+
+.main-reception{
+    display: block;
+    text-align: center;
+    margin: 5px 0 5px 0;
+    padding: .5rem;
+}
+
+.main-reception h2{
+    font-size: 3rem;
+    padding: .5rem;
+}
+
+.main-reception h1{
+    font-size: 4rem;
+    padding: .5rem;
+}
+.main-reception img{
+    margin: 5px 0 5px 0;
+    width: 70%;
+    height: 30%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+  
+.main-reception img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

@@ -103,5 +103,18 @@
     .types{
       align-self: center;
     }
+
+    /* Reception */
+
+    .main-reception{
+        padding: 1.5rem;
+    }
+
+    .main-reception img{
+        width: 40%;
+        height: 30%;
+        margin: 5px 10px 0 10px;
+    }
+
     
 }
