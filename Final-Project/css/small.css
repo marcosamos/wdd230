@@ -228,7 +228,9 @@ footer{
     text-align: center;
     padding: 1rem;
 }
-
+footer h1{
+    font-size: 2rem;
+}
 .footerLogo{
     width: 8rem;
 }
@@ -394,4 +396,45 @@ form fieldset {
   
 .main-reception img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*--------------full-time-missionary page-------------*/
+
+.main_missionary{
+    display: block;
+    text-align: center;
+}
+
+.main_missionary img{
+    width: 80%;
+    height: auto;
+    margin: 5px 0 5px 0 black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1rem black;
+}
+
+.single,.double,.suite{
+    margin: 1rem;
+    border: black 2px solid;
+    background-color: var(--color-quarter); 
+    padding: .5rem;
+}
+.main_missionary h3{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.main_missionary p{
+    padding: 1rem;
+}
+.main_missionary ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.main_missionary form{
+    border: 3px solid black;
+    padding: 2rem;
 }

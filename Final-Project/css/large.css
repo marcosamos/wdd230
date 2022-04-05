@@ -45,7 +45,6 @@
         grid-column: 3/4;
         grid-row: 1/3;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(2,1fr);
     }
     .temple1, .temple2, .temple3{
@@ -56,7 +55,9 @@
 
     .temple1{
       grid-row: 1/1;
+
     }
+  
     
     .temple2{
      grid-row:  2/2;
@@ -66,7 +67,7 @@
     }
     .temple4, .temple5, .temple6{
       display: grid;
-      width: 50%;
+      width: 100%;
       height: 100%;
       padding: .3rem;
       grid-column: 2/2;
@@ -115,5 +116,9 @@
     .content_reservation h2{
       text-align: center
     }
+
+    /*----------missionary page---------- */
+
+    
     
 }
