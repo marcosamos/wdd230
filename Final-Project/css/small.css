@@ -348,6 +348,7 @@ form fieldset {
     margin: 0 0 2rem 2%;
     width: 80%;
     max-width: 15rem;
+    font-size: 1rem;
   }
   
   
@@ -367,6 +368,11 @@ form fieldset {
     border-left: green solid 6px;
   }
 
+   /* thankyou page */
+   
+   #main-thankyou{
+       text-align: center;
+   }
   /* Wedding servises */
 
 .main-reception{

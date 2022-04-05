@@ -105,6 +105,10 @@
       align-self: center;
     }
 
+    form input.submitBtn {
+        font-size: 2.5rem;
+      }
+
     /* Reception */
 
     .main-reception{
