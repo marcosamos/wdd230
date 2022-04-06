@@ -14,7 +14,7 @@ fetch(requestURL)
   function displayTemples(temples){
     // Create elements to add to the document
     let card = document.createElement('section');
-    let templeName = document.createElement('h2');
+    let templeName = document.createElement('h1');
     let templeImage = document.createElement("img");
     let templePhone = document.createElement("p");
     let templeEmail = document.createElement("p");
@@ -30,7 +30,7 @@ fetch(requestURL)
     templeEmail.textContent = temples.email;
     services.textContent = temples.services;
     history.textContent = temples.history;
-    templeClosureSchedule.textContent = temples.temple-closure-schedule;
+    templeClosureSchedule.textContent = temples.templeClosureSchedule;
     // Add/append the section(card) with the h2 element
     card.appendChild(templeName);
     card.appendChild(templeImage);
