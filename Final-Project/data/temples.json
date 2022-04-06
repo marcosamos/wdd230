@@ -6,9 +6,9 @@
         "phone": "(52) 664-969-2690",
         "email": "tijuana_temple@lds.com",
         "imageurl": "https://assets.ldscdn.org/2e/5e/2e5ec687d991bf0427ec2673d34d0faa61ac4ee6/tijuana_mexico_temple_exterior.png",
-        "services": "No clothing rental available  No cafeteria available No patron housing available Distribution center nearby",
-        "History": ["2 October 2010-Announced","18 August 2012-Groundbreaking","13 December 2015 -Dedicated"],
-        "temple-closure-schedule": ["Saturday, 2 April 2022", "Monday 27 June 2022 - Monday, 11 July 2022",
+        "services": ["No clothing rental available",  "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "history": ["2 October 2010-Announced","18 August 2012-Groundbreaking","13 December 2015 -Dedicated"],
+        "templeClosureSchedule": ["Saturday 2 April 2022", "Monday 27 June 2022 - Monday, 11 July 2022",
             "Saturday, 1 October 2022",
             "Monday, 28 November 2022 - Monday, 12 December 2022",
             "Saturday, 24 December 2022",
@@ -21,8 +21,8 @@
         "email": "saltlaketemple@lds.com",
         "imageurl": "https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg",
         "services": "unavailable",
-        "History":["28 July 1847-Announced", "14 February 1853Groundbreaking","6 April 1893-Dedicated"],
-        "temple-closure-schedule": "unavailable"
+        "history":["28 July 1847-Announced", "14 February 1853Groundbreaking","6 April 1893-Dedicated"],
+        "templeClosureSchedule": "unavailable"
       },
       {
         "name": "Temple of Provo",
@@ -31,8 +31,8 @@
         "email": "provotemplecity@lds.com",
         "imageurl": "https://assets.ldscdn.org/57/18/5718c8b9c5a103646c0bd22554cb268b88986f05/provo_city_center_temple_exterior.jpg",
         "services": ["Clothing rental available", "No cafeteria available","No patron housing available","Distribution center nearby"],
-        "History":["1 October 2011 - Announced", "12 May 2012 - Groundbreaking","20 March 2016 - Dedicated"],
-        "temple-closure-schedule": ["Monday, 20 June 2022",
+        "history":["1 October 2011 - Announced", "12 May 2012 - Groundbreaking","20 March 2016 - Dedicated"],
+        "templeClosureSchedule": ["Monday, 20 June 2022",
           "Monday, 4 July 2022",
           "Saturday, 1 October 2022",
           "Wednesday, 23 November 2022 (Limited Operations)",
@@ -49,8 +49,8 @@
         "email": "mexicocitytemple@lds.org",
         "imageurl": "https://assets.ldscdn.org/05/ba/05baca7fd19cb67cd1379e82b1d38ef996ec2eb2/mexico_city_temple_lds.jpg",
         "services": ["Clothing rental available", "No cafeteria available","No patron housing available","Distribution center nearby"],
-        "History": ["3 April 1976 Announced","25 November 1979 Groundbreaking","2 December 1983 Dedicated","16 November 2008 Rededicated","13 September 2015 Rededicated"],
-        "temple-closure-schedule": ["Monday, 27 June 2022 - Monday, 11 July 2022","Saturday, 1 October 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
+        "history": ["3 April 1976 Announced","25 November 1979 Groundbreaking","2 December 1983 Dedicated","16 November 2008 Rededicated","13 September 2015 Rededicated"],
+        "templeClosureSchedule": ["Monday, 27 June 2022 - Monday, 11 July 2022","Saturday, 1 October 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
       },
       {
         "name": "Temple of San Diego",
@@ -59,8 +59,8 @@
         "email": "sandiegotemple@lds.org",
         "imageurl": "https://assets.ldscdn.org/c1/56/c156a77fb82195e588390cdc44084c8cfa990139/san_diego_california_temple.jpeg",
         "services": ["Clothing rental available", "No cafeteria available","No patron housing available","Distribution center nearby"],
-        "History": ["7 April 1984 Announced","27 February 1988 Groundbreaking","25 April 1993 Dedicated"],
-        "temple-closure-schedule": ["Saturday, 1 October 2022","Wednesday 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
+        "history": ["7 April 1984 Announced","27 February 1988 Groundbreaking","25 April 1993 Dedicated"],
+        "templeClosureSchedule": ["Saturday, 1 October 2022","Wednesday 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
       },
       {
         "name": "Temple of Rome",
@@ -69,8 +69,8 @@
         "email": "romatemple@lds.org",
         "imageurl": "https://assets.ldscdn.org/b5/37/b537f20ccdd2f7ba4f3413a055bcaab21fd3e107/rome_italy_temple.png",
         "services": ["Clothing rental available", "No cafeteria available","No patron housing available","Distribution center nearby"],
-        "History": [""],
-        "temple-closure-schedule": ["Monday, 28 February 2022 - Monday, 9 May 2022","Wednesday, 29 June 2022","Monday, 19 September 2022 - Monday, 3 October 2022",
+        "history": [""],
+        "templeClosureSchedule": ["Monday, 28 February 2022 - Monday, 9 May 2022","Wednesday, 29 June 2022","Monday, 19 September 2022 - Monday, 3 October 2022",
           "Saturday, 24 December 2022 - Monday, 26 December 2022",
           "Saturday, 31 December 2022 - Sunday, 1 January 2023"]
       }
