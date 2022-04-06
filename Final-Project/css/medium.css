@@ -146,5 +146,11 @@
     .main_missionary ul li{
         font-size: 2rem;
     }
+
+    /* -----------------Temple page-------------*/
     
+
+    .main-temples img:hover{
+        transform: scale(1.1);
+    }
 }
